@@ -48,10 +48,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R       &kp T                                   &kp Y        &kp U  &kp I      &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F       &kp G     &lt 1 LC(Y)    &kp MINUS      &kp H        &kp J  &lt 5 K    &kp L    &kp INTERNATIONAL_3
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V       &kp B     &lt 4 LC(Z)    &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 1 INT4  &mkp MB1  &mkp MB2       &lt 2 SPACE    &lt 1 ENTER                             &kp QUESTION
+&kp Q             &kp W         &kp E         &kp R            &kp T                                         &kp Y        &kp U  &kp I      &kp O    &kp P
+&kp A             &kp S         &kp D         &kp F            &kp G     &lt 1 LC(Y)    &kp INTERNATIONAL_6  &kp H        &kp J  &lt 5 K    &kp L    &kp MINUS
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V            &kp B     &lt 4 LC(Z)    &kp INTERNATIONAL_4  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 1 BACKSPACE  &mkp MB1  &mkp MB2       &lt 2 SPACE          &lt 1 ENTER                             &kp QUESTION
             >;
 
             sensor-bindings =
