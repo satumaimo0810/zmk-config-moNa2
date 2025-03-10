@@ -48,7 +48,7 @@
         default_layer {
             bindings = <
 &kp Q             &kp W         &kp E         &kp R            &kp T                                    &kp Y        &kp U  &kp I      &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F            &kp G     &lt 1 LC(Y)    &kp LANGUAGE_1  &kp H        &kp J  &lt 5 K    &kp L    &kp MINUS
+&kp A             &kp S         &kp D         &kp F            &kp G     &lt 3 LC(Y)    &kp LANGUAGE_1  &kp H        &kp J  &lt 5 K    &kp L    &kp MINUS
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V            &kp B     &lt 4 LC(Z)    &kp LANGUAGE_2  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 1 BACKSPACE  &mkp MB1  &mkp MB2       &lt 2 SPACE     &lt 1 ENTER                             &kp QUESTION
             >;
@@ -71,10 +71,10 @@
 
         move {
             bindings = <
-&kp MINUS                   &kp KP_NUMBER_7  &kp UP_ARROW     &kp KP_NUMBER_9  &kp PLUS                                                 &kp CARET         &kp LG(LEFT)       &kp TILDE       &kp LG(RIGHT)    &kp BACKSPACE
-&kp SLASH                   &kp LEFT         &kp DOWN         &kp RIGHT        &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))    &kp UNDERSCORE  &kp EXCLAMATION   &kp LA(LEFT)       &kp HASH        &kp LA(RIGHT)    &kp PERCENT
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                  &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp BACKSLASH
-&trans                      &trans           &trans           &trans           &bt BT_NXT    &trans                     &trans          &trans                                                                &kp PIPE
+&kp MINUS                   &kp KP_NUMBER_7  &kp UP_ARROW     &kp KP_NUMBER_9  &kp PLUS                                                &kp CARET         &kp LG(LEFT)       &kp TILDE       &kp LG(RIGHT)    &kp BACKSPACE
+&kp SLASH                   &kp LEFT         &kp DOWN         &kp RIGHT        &kp ASTERISK  &kp LG(LC(D))     &kp LG(LC(LEFT_ARROW))  &kp EXCLAMATION   &kp LA(LEFT)       &kp HASH        &kp LA(RIGHT)    &kp PERCENT
+&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp LG(LC(F4))    &kp LG(LC(RIGHT))       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp BACKSLASH
+&trans                      &trans           &trans           &trans           &bt BT_NXT    &trans            &trans                  &trans                                                                &kp PIPE
             >;
 
             sensor-bindings = <&scroll_up_down>;
